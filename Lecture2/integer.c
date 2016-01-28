@@ -8,9 +8,9 @@ int main()
 	printf("a+b = %d \n",a+b);
 
 	 unsigned int aBigNumber = 4294967295;
-	int one= 1;
+	int one= 2;
 
-	printf("aBigNumber+one = %lu \n",aBigNumber+one);
+	printf("aBigNumber+one = %d \n",aBigNumber+one);
 
 
 	return EXIT_SUCCESS;

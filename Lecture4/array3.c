@@ -3,7 +3,7 @@
 
 int main()
 {
-	char XO[3][3]={
+	char XO[][3]={
 									{'-','-','-'},
 									{'-','-','-'},
 									{'-','-','-'},
@@ -11,11 +11,10 @@ int main()
 
 
   XO[1][2]='O';
-  int x,y;
 
-  for(y=0; y<3; ++y)
+  for(int y=0; y<3; ++y)
   {
-  	for(x=0; x<3; ++x)
+  	for(int x=0; x<3; ++x)
   	{
   		printf("%c ",XO[y][x]);
   	}
