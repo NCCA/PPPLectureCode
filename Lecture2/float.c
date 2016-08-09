@@ -13,9 +13,6 @@ int main()
 	printf("%.8lf \n",b);
 	printf("%Lf \n",c);
   
-//  float a=0.2f+0.1f;
-//  float b=0.3f;
-//  printf("%d", a==b);
 	return EXIT_SUCCESS;
 }
 
